@@ -1,0 +1,4 @@
+CFBundleName = "Go to parent folder";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "Go to parent folder version 1.0 Copyright 2008 Ali Rantakari";
+NSHumanReadableCopyright = "Copyright 2008 Ali Rantakari.";
