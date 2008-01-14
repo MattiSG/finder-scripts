@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/Scripts/main.scpt</key>
+		<data>
+		2NJuomJdQdk5kK14B7Q2ND/mfY4=
+		</data>
+		<key>Resources/applet.icns</key>
+		<data>
+		NWvCfqBUmUPET9FDzxLNu24z088=
+		</data>
+		<key>Resources/applet.rsrc</key>
+		<data>
+		QBEkcRcIVpPZTb+5dc4A4yikwXU=
+		</data>
+		<key>Resources/description.rtfd/TXT.rtf</key>
+		<data>
+		UEGR7XF8TNuk3QxMYUD0EfLApzY=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
